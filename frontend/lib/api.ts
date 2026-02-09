@@ -5,7 +5,7 @@
  * This provides caching, error handling, and loading states automatically.
  */
 
-const API_BASE_URL = 'https://llm-responses-analzyer-with-different.onrender.com/'
+const API_BASE_URL = 'https://llm-responses-analzyer-with-different.onrender.com'
 
 export interface ParameterRange {
   min: number
