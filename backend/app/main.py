@@ -16,7 +16,7 @@ app = FastAPI(
 # CORS middleware for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:3001", 'https://llm-responses-analzyer-with-different.onrender.com'],  # Next.js default ports
+    allow_origins=["http://localhost:3000", "http://localhost:3001", 'https://llm-responses-analyzer-with-different-parameters.vercel.app'],  # Next.js default ports
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
