@@ -5,7 +5,7 @@
  * This provides caching, error handling, and loading states automatically.
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8005'
+const API_BASE_URL = 'https://llm-responses-analzyer-with-different.onrender.com/'
 
 export interface ParameterRange {
   min: number
